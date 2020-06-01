@@ -1,0 +1,470 @@
+{
+  "responseHeader": {
+    "status": 0,
+    "QTime": 5,
+    "params": {
+      "q": "jetty",
+      "core": "",
+      "defType": "dismax",
+      "qf": "text^20 g^5 a^10",
+      "indent": "off",
+      "spellcheck": "true",
+      "fl": "id,g,a,latestVersion,p,ec,repositoryId,text,timestamp,versionCount",
+      "start": "",
+      "spellcheck.count": "5",
+      "sort": "score desc,timestamp desc,g asc,a asc",
+      "rows": "20",
+      "wt": "json",
+      "version": "2.2"
+    }
+  },
+  "response": {
+    "numFound": 1479,
+    "start": 0,
+    "docs": [
+      {
+        "id": "no.nav.common:jetty",
+        "g": "no.nav.common",
+        "a": "jetty",
+        "latestVersion": "2.2020.04.22_16.44-8c304813febf",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1587566921000,
+        "versionCount": 116,
+        "text": [
+          "no.nav.common",
+          "jetty",
+          "-javadoc.jar",
+          "-sources.jar",
+          "-test-sources.jar",
+          ".jar",
+          "-tests.jar",
+          ".pom"
+        ],
+        "ec": [
+          "-javadoc.jar",
+          "-sources.jar",
+          "-test-sources.jar",
+          ".jar",
+          "-tests.jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "io.github.qsy7.java.dependencies:jetty",
+        "g": "io.github.qsy7.java.dependencies",
+        "a": "jetty",
+        "latestVersion": "0.1.0",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1576534788000,
+        "versionCount": 1,
+        "text": [
+          "io.github.qsy7.java.dependencies",
+          "jetty",
+          ".pom"
+        ],
+        "ec": [
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.walterjwhite.java.dependencies:jetty",
+        "g": "com.walterjwhite.java.dependencies",
+        "a": "jetty",
+        "latestVersion": "0.0.17",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1567442427000,
+        "versionCount": 2,
+        "text": [
+          "com.walterjwhite.java.dependencies",
+          "jetty",
+          ".pom"
+        ],
+        "ec": [
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.openjax:jetty",
+        "g": "org.openjax",
+        "a": "jetty",
+        "latestVersion": "9.4.18",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1563780499000,
+        "versionCount": 2,
+        "text": [
+          "org.openjax",
+          "jetty",
+          "-javadoc.jar",
+          "-sources.jar",
+          "-tests.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-javadoc.jar",
+          "-sources.jar",
+          "-tests.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.opsbears.webcomponents.webserver:jetty",
+        "g": "com.opsbears.webcomponents.webserver",
+        "a": "jetty",
+        "latestVersion": "1.0.0-alpha14",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1556172699000,
+        "versionCount": 5,
+        "text": [
+          "com.opsbears.webcomponents.webserver",
+          "jetty",
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.opsbears.webcomponents.application.webserver:jetty",
+        "g": "com.opsbears.webcomponents.application.webserver",
+        "a": "jetty",
+        "latestVersion": "1.0.0-alpha14",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1556172694000,
+        "versionCount": 2,
+        "text": [
+          "com.opsbears.webcomponents.application.webserver",
+          "jetty",
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.github.skjolber.mockito-rest-spring:jetty",
+        "g": "com.github.skjolber.mockito-rest-spring",
+        "a": "jetty",
+        "latestVersion": "1.0.3",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1530564063000,
+        "versionCount": 1,
+        "text": [
+          "com.github.skjolber.mockito-rest-spring",
+          "jetty",
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.atteo.moonshine:jetty",
+        "g": "org.atteo.moonshine",
+        "a": "jetty",
+        "latestVersion": "1.2",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1461020918000,
+        "versionCount": 5,
+        "text": [
+          "org.atteo.moonshine",
+          "jetty",
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "com.github.ggalmazor:jetty",
+        "g": "com.github.ggalmazor",
+        "a": "jetty",
+        "latestVersion": "0.0.15",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1446978007000,
+        "versionCount": 1,
+        "text": [
+          "com.github.ggalmazor",
+          "jetty",
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-javadoc.jar",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.cloudhoist:jetty",
+        "g": "org.cloudhoist",
+        "a": "jetty",
+        "latestVersion": "0.5.0",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1303423143000,
+        "versionCount": 6,
+        "text": [
+          "org.cloudhoist",
+          "jetty",
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.apache.geronimo.plugins:jetty",
+        "g": "org.apache.geronimo.plugins",
+        "a": "jetty",
+        "latestVersion": "2.2.1",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1291387681000,
+        "versionCount": 11,
+        "text": [
+          "org.apache.geronimo.plugins",
+          "jetty",
+          ".pom"
+        ],
+        "ec": [
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.sonatype.runtime.recipes:jetty",
+        "g": "org.sonatype.runtime.recipes",
+        "a": "jetty",
+        "latestVersion": "7.0.1.v20091125-v0001",
+        "repositoryId": "central",
+        "p": "pom",
+        "timestamp": 1285722672000,
+        "versionCount": 1,
+        "text": [
+          "org.sonatype.runtime.recipes",
+          "jetty",
+          ".zip",
+          "-p2Artifacts.xml",
+          "-p2Content.xml",
+          ".pom"
+        ],
+        "ec": [
+          ".zip",
+          "-p2Artifacts.xml",
+          "-p2Content.xml",
+          ".pom"
+        ]
+      },
+      {
+        "id": "uk.org.retep.microkernel.web:jetty",
+        "g": "uk.org.retep.microkernel.web",
+        "a": "jetty",
+        "latestVersion": "10.5.1",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1273066104000,
+        "versionCount": 2,
+        "text": [
+          "uk.org.retep.microkernel.web",
+          "jetty",
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          "-tests.jar",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          "-tests.jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "org.mortbay.jetty:jetty",
+        "g": "org.mortbay.jetty",
+        "a": "jetty",
+        "latestVersion": "7.0.0.pre5",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1225394899000,
+        "versionCount": 111,
+        "text": [
+          "org.mortbay.jetty",
+          "jetty",
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          ".pom",
+          "-site-component.jar"
+        ],
+        "ec": [
+          "-sources.jar",
+          "-javadoc.jar",
+          ".jar",
+          ".pom",
+          "-site-component.jar"
+        ]
+      },
+      {
+        "id": "org.eclipse.equinox.http:jetty",
+        "g": "org.eclipse.equinox.http",
+        "a": "jetty",
+        "latestVersion": "1.0.0-v20070607",
+        "repositoryId": "central",
+        "p": "jar",
+        "timestamp": 1196147773000,
+        "versionCount": 1,
+        "text": [
+          "org.eclipse.equinox.http",
+          "jetty",
+          ".jar",
+          ".pom"
+        ],
+        "ec": [
+          ".jar",
+          ".pom"
+        ]
+      },
+      {
+        "id": "jetty:jetty",
+        "g": "jetty",
+        "a": "jetty",
+        "latestVersion": "6.0.2",
+        "repositoryId": "central",
+        "p": "N/A",
+        "timestamp": 1168271768000,
+        "versionCount": 29,
+        "text": [
+          "jetty",
+          "jetty",
+          ".jar"
+        ],
+        "ec": [
+          ".jar"
+        ]
+      },
+      {
+        "id": "geronimo:jetty",
+        "g": "geronimo",
+        "a": "jetty",
+        "latestVersion": "1.1.1",
+        "repositoryId": "central",
+        "p": "N/A",
+        "timestamp": 1167938247000,
+        "versionCount": 3,
+        "text": [
+          "geronimo",
+          "jetty",
+          ".car"
+        ],
+        "ec": [
+          ".car"
+        ]
+      },
+      {
+        "id": "org.apache.geronimo.configs:jetty",
+        "g": "org.apache.geronimo.configs",
+        "a": "jetty",
+        "latestVersion": "1.2-beta",
+        "repositoryId": "central",
+        "p": "car",
+        "timestamp": 1167185538000,
+        "versionCount": 1,
+        "text": [
+          "org.apache.geronimo.configs",
+          "jetty",
+          "-sources.jar",
+          ".car",
+          ".pom"
+        ],
+        "ec": [
+          "-sources.jar",
+          ".car",
+          ".pom"
+        ]
+      },
+      {
+        "id": "jetty:jetty-embedded",
+        "g": "jetty",
+        "a": "jetty-embedded",
+        "latestVersion": "6.0.2",
+        "repositoryId": "central",
+        "p": "N/A",
+        "timestamp": 1168271770000,
+        "versionCount": 5,
+        "text": [
+          "jetty",
+          "jetty-embedded",
+          ".jar"
+        ],
+        "ec": [
+          ".jar"
+        ]
+      },
+      {
+        "id": "jetty:jetty-management",
+        "g": "jetty",
+        "a": "jetty-management",
+        "latestVersion": "6.0.2",
+        "repositoryId": "central",
+        "p": "N/A",
+        "timestamp": 1168271770000,
+        "versionCount": 13,
+        "text": [
+          "jetty",
+          "jetty-management",
+          ".jar"
+        ],
+        "ec": [
+          ".jar"
+        ]
+      }
+    ]
+  },
+  "spellcheck": {
+    "suggestions": []
+  }
+}

@@ -1,0 +1,44 @@
+<idea-plugin url="https://www.jetbrains.com/idea">
+
+    <!-- Plugin name. It should be short and descriptive and in Title Case.
+         Displayed in the "Plugins" settings dialog and the plugin repository Web interface. -->
+    <name>Maven Search</name>
+
+    <!-- Unique identifier of the plugin. Should be FQN.
+         Cannot be changed between the plugin versions.
+         If not specified, <name> will be used (not recommended). -->
+    <id>dev.turingcomplete.intellij-maven-search-plugin</id>
+
+    <!-- Description of the plugin.
+         Should be short and to the point.
+         Start the description with a verb in present simple form such as
+         "integrates", "synchronizes", "adds support for" or "lets you view".
+         Don’t use marketing adjectives like “simple”, “lightweight”, or “professional”.
+         Don’t repeat the name of the plugin.
+         For plugins that add language/platform/framework support, the description MUST specify
+         the version of the corresponding language/platform/framework.
+         Don't mention the IDE compatibility. E.g. don't say "Adds support to IntelliJ IDEA for..."
+         Displayed in the "Plugins" settings dialog and the plugin repository Web interface.
+         Simple HTML elements can be included between <![CDATA[  ]]> tags.  -->
+    <description>TODO</description>
+
+    <!-- Description of changes in the latest version of the plugin.
+         Displayed in the "Plugins" settings dialog and the plugin repository Web interface.
+         Simple HTML elements can be included between <![CDATA[  ]]> tags.  -->
+    <change-notes>TODO</change-notes>
+
+    <!-- Plugin version
+         Recommended format is BRANCH.BUILD.FIX (MAJOR.MINOR.FIX)
+         Displayed in the "Plugins" settings dialog and the plugin repository Web interface.  -->
+    <version>0.0.0</version>
+
+    <!-- The vendor of the plugin.
+         The optional "url" attribute specifies the URL of the vendor homepage.
+         The optional "email" attribute specifies the e-mail address of the vendor.
+         Displayed in the "Plugins" settings dialog and the plugin repository Web interface. -->
+    <vendor url="https://www.turingcomplete.dev" email="dev@marcelkliemannel.com">Marcel Kliemannel</vendor>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Maven Search" anchor="right" canCloseContents="" secondary="true" icon="/mavenIcon.png" factoryClass="dev.turingcomplete.maven.MyToolWindowFactory"/>
+    </extensions>
+</idea-plugin>

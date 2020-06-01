@@ -1,0 +1,31 @@
+# Application
+*.log
+
+# Java
+*.class
+*.jar
+/help/error_hotspot.xml
+hs_err_pid*
+
+# Gradle
+.gradle
+build/
+**/build/
+!gradle-wrapper.jar
+
+# Cache of project
+.gradletasknamecache
+
+# IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# macOS
+.DS_Store
+
+# Other
+*.zip
+*.tar.gz
